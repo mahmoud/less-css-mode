@@ -1,11 +1,7 @@
 ;;; less-css-mode.el --- Major mode for editing LESS CSS
 
 ;; Copyright (C) 2012
-;; Mahmoud Hashemi
-
-;; Based on JD Huntington's less-css-mode.el:
-;; http://jdhuntington.com/emacs/less-css-mode.el
-;; (currently the primary change is fixing the indentation scheme)
+;; Mahmoud Hashemi, JD Huntington
 
 ;; MIT License
 
