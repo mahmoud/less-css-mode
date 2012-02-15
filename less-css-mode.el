@@ -27,12 +27,20 @@
 ;; OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 ;; THE SOFTWARE.
 
+(defgroup less-css nil
+  "Highlight and indent LESS CSS."
+  :prefix "less-css-"
+  :link '(url-link :tag "Github for LESS CSS major mode"
+		   "https://github.com/makuro/less-css-mode")
+  :group 'languages)
 
-(defcustom less-css-indent-level 2 "Number of spaces to indent inside a block.")
-
+(defcustom less-css-indent-level 2 
+  "Number of spaces to indent inside a block."
+  :group 'less-css
+  :type 'integer
+  :safe 'integerp)
 
 (defvar less-css-mode-hook nil)
-
 
 (defvar less-css-mode-map
   (let ((map (make-sparse-keymap)))
