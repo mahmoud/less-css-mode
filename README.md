@@ -2,10 +2,8 @@
 
 LESS (http://www.lesscss.org) is awesome and emacs is awesome
 (http://www.gnu.org/s/emacs), so here is my simple major mode for
-editing LESS in emacs. It's based on JD Huntington's work. In fact the
-only modification thus far is the indentation. Here's his blog post on
-the topic:
+editing LESS in emacs.
 
-http://blog.jdhuntington.com/2011/03/emacs-major-mode-less-css.html
-
-I might update it some more after I recover from elispin'
+less-css-mode provides most of the same features as css-mode, but
+improves by adding indentation support for less-css's nested style
+directives.
